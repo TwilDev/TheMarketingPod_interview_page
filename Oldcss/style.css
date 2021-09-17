@@ -1,0 +1,41 @@
+
+body {
+  margin : 0;
+  padding : 0;  
+
+} 
+
+.background {
+  margin : 0;
+
+  /* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
+}
+
+.quiz-container {
+  background-color : white;
+}
+
+.active-question {
+  display : block!important;
+}
+
+.inactive-question {
+  display : none;
+}
+
+.question-answer {
+  display : inline-block;
+  margin : 0;
+}
+
+.answers > input {
+  display : block;
+}
+
+.submit-btn {
+  display : none;
+}
+
+.image-container {
+  width : 500px;
+}
